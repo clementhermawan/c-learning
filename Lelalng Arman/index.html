@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/style.css" />
+        <link
+         rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+         />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Lelang Arman</title>
+    </head>
+    <body>
+        <div class="chat fa fa-brands fa-whatsapp" oneclick="chat"></div>
+        <header>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="file:///C:/Users/Lapesy/Desktop/belajar/index.html" class="nav-link">
+                        <span class="nav-icon fa fa-home"></span>
+                        <span class="nav-text">HOME</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="file:///C:/Users/Lapesy/Desktop/belajar%20pt2/index.html" class="nav-link">
+                        <span class="nav-icon fa fa-box"></span>
+                        <span class="nav-text">PRODUCT</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="file:///C:/Users/Lapesy/Desktop/belajar%20pt3/index.html" class="nav-link">
+                        <span class="nav-icon fa fa-phone"></span>
+                        <span class="nav-text">CONTAC</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="file:///C:/Users/Lapesy/Desktop/Lelalng%20Arman/login/login.html" class="nav-link">
+                        <span class="nav-icon fa fa-user-circle-o"></span>
+                        <span class="nav-text">LOGIN</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <!-- product list -->
+            <div class="container">
+                <h2 class="title">Product List</h2>
+                <!-- Baris -->
+                <div class="row">
+                    <!-- Kolom -->
+                    <div class="col" onclick="buy('baju lebaran')">
+                        <img src="assets/images/product-1.jpg"/>
+                        <h4>Baju Lebaran</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu olahraga')">
+                        <img src="assets/images/product-2.jpg"/>
+                        <h4>sepatu olahraga</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('celana lebaran')">
+                        <img src="assets/images/product-3.jpg"/>
+                        <h4>celana lebaran</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('baju nikahan')">
+                        <img src="assets/images/product-4.jpg"/>
+                        <h4>baju nikahan</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu kakak')">
+                        <img src="assets/images/product-5.jpg"/>
+                        <h4>sepatu kakak</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('baju kakak')">
+                        <img src="assets/images/product-6.jpg"/>
+                        <h4>baju kakak</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu tentara')">
+                        <img src="assets/images/product-7.jpg"/>
+                        <h4>sepatu tentara</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('jam tangan')">
+                        <img src="assets/images/product-8.jpg"/>
+                        <h4>jam tangan</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('jam dinding')">
+                        <img src="assets/images/product-9.jpg"/>
+                        <h4>jam dinding</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu jalan jalan')">
+                        <img src="assets/images/product-10.jpg"/>
+                        <h4>sepatu jalan jalan</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('sepatu sepasang')">
+                        <img src="assets/images/product-11.jpg"/>
+                        <h4>sepatu sepasang</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                    <div class="col" onclick="buy('celana training')">
+                        <img src="assets/images/product-12.jpg"/>
+                        <h4>celana training</h4>
+                        <p>Rp.100.000</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>copyright <span id="year"></span> Lelang Arman</p>
+        </footer>
+
+        <script src="assets/source.js"></script>
+    </body>
+</html>
